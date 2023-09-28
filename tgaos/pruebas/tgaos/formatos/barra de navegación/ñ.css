@@ -1,0 +1,71 @@
+/* Este es el código CSS para la barra de navegación */
+nav {
+    background-color: #333;
+    /* Elige el color de fondo que quieras */
+    height: 50px;
+    /* Elige la altura que quieras */
+}
+
+nav ul {
+    list-style: none;
+    /* Esto elimina los puntos de la lista */
+    margin: 0;
+    /* Esto elimina los márgenes de la lista */
+    padding: 0;
+    /* Esto elimina el relleno de la lista */
+}
+
+nav ul li {
+    display: inline-block;
+    /* Esto hace que los elementos de la lista se muestren en línea */
+    line-height: 50px;
+    /* Esto alinea verticalmente el texto dentro de los elementos de la lista */
+}
+
+nav ul li a {
+    color: white;
+    /* Elige el color del texto que quieras */
+    text-decoration: none;
+    /* Esto elimina el subrayado del texto */
+    padding: 10px;
+    /* Esto añade un poco de espacio alrededor del texto */
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    /* Elige el color de fondo que quieras cuando el cursor pasa por encima del texto */
+}
+
+/* Este es el código CSS para el menú desplegable de carreras */
+nav ul li ul {
+    display: none;
+    /* Esto oculta el menú desplegable por defecto */
+    position: absolute;
+    /* Esto hace que el menú desplegable se posicione respecto al elemento padre */
+    top: 50px;
+    /* Esto hace que el menú desplegable se sitúe debajo del elemento padre */
+    left: 0;
+    /* Esto hace que el menú desplegable se alinee a la izquierda del elemento padre */
+}
+
+nav ul li:hover ul {
+    display: block;
+    /* Esto hace que el menú desplegable se muestre cuando el cursor pasa por encima del elemento padre */
+}
+
+nav ul li ul li {
+    display: block;
+    /* Esto hace que los elementos del menú desplegable se muestren en bloque */
+    width: 200px;
+    /* Elige el ancho que quieras para los elementos del menú desplegable */
+}
+
+nav ul li ul li a {
+    background-color: #333;
+    /* Elige el color de fondo que quieras para los elementos del menú desplegable */
+}
+
+nav ul li ul li a:hover {
+    background-color: #555;
+    /* Elige el color de fondo que quieras cuando el cursor pasa por encima de los elementos del menú desplegable */
+}
