@@ -4,24 +4,17 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+header {
     color: white;
 }
 
-header {
-    display: flex;
-    min-height: 70px;
-	color: #ffff00;
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
+.tgaos {
+	color: white
 }
 
 .logo {
     display: flex;
-    color: yellow;
+    color: #fff;
     align-items: center;
 }
 
@@ -30,13 +23,17 @@ header {
     margin-right: 10px;
 }
 
-nav a {
-    font-weight: 600;
-    padding-right: 10px;
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252a;
+    padding: 0 2vw;
 }
 
-nav a:hover {
-    color: white;
+nav a {
+    display: block;
 }
 
 .cont-ul {
@@ -52,7 +49,7 @@ li {
 }
 
 li:hover {
-    background-color: #ffff00;
+    background-color: #ff2e2e;
 }
 
 .develop {
@@ -67,14 +64,14 @@ li:hover {
 
 .ul-second > li {
     width: 185px;
-    transform: translateX(-25px);
+    transform: translateX(-60px);
     border-bottom: solid 1px #fff;
     text-align: center;
     background-color: #24252a;
 }
 
 .ul-second > li:hover {
-    background-color: #ffff00;
+    background-color: #ff2e2e;
 }
 
 .develop:hover > .ul-second {
@@ -85,7 +82,7 @@ li:hover {
     position: absolute;
     transform: translateX(185px);
     left: 0;
-    top: 0;
+    top: 0%;
     display: none;
     background-color: #24252a;
 }
@@ -95,23 +92,19 @@ li:hover {
     border-bottom: solid 1px #fff;
 }
 
-.cs:hover > .ul-third {
+.p-se:hover > .ul-third {
     display: block;
 }
 
-@media (max-width: 700px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav {
-        padding: 10px 0px;
+@media (max-width:900px) {
+    .logo {
+        display: none;
     }
 }
 
 body {
     height: 100vh;
-    font-family: sans-serif;
+    background-color: #a9aaac;
 }
 
 section {
@@ -126,27 +119,28 @@ h1 {
 	font-family: Merriweather;
 }
 
-ul {
-    font-size: 18px;
-	color: white;
-	font-family: Raleway;
-}
-
-.a {
-	color: #000000;
+h2 {
+	font-family: Merriweather;
 }
 
 p {
-	font-size: 20px;
-	color: white;
+    font-size: 20px;
 	font-family: Raleway;
 }
 
 .p {
     font-size: 20px;
-	color: #000000;
 	font-family: Raleway;
 }
 
+a {
+	text-decoration: none;
+    font-size: 18px;
+	font-family: Raleway;
+	color: white;
+}
 
+#tecnicatura {
+	text-align: center;
+}
 
