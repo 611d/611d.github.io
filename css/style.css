@@ -4,12 +4,33 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "reboto", sans-serif;
+}
+
+h1 {font-size: 2.5em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em;}
+p {font-size: 1em;}
+ul {list-style: none;}
+li {font-size: 1em;}
+
+.cointainer {
+    max-width: 1400px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 header {
     color: white;
 }
 
 .tgaos {
-	color: white
+    color: white
 }
 
 .logo {
@@ -23,7 +44,7 @@ header {
     margin-right: 10px;
 }
 
-nav {
+header nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,14 +58,14 @@ nav a {
 }
 
 .cont-ul {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 li {
     list-style: none;
     cursor: pointer;
-    padding: 1.5vw 5vw;
+    padding: 1.5vw 2vw;
     transition: all 0.3s ease 0s;
 }
 
@@ -62,7 +83,7 @@ li:hover {
     margin-top: 1.5vw;
 }
 
-.ul-second > li {
+.ul-second>li {
     width: 185px;
     transform: translateX(-60px);
     border-bottom: solid 1px #fff;
@@ -70,11 +91,11 @@ li:hover {
     background-color: #24252a;
 }
 
-.ul-second > li:hover {
+.ul-second>li:hover {
     background-color: #ff2e2e;
 }
 
-.develop:hover > .ul-second {
+.develop:hover>.ul-second {
     display: block;
 }
 
@@ -87,60 +108,19 @@ li:hover {
     background-color: #24252a;
 }
 
-.ul-third > li {
+.ul-third>li {
     padding: 1.5vh;
     border-bottom: solid 1px #fff;
 }
 
-.p-se:hover > .ul-third {
+.p-se:hover>.ul-third {
     display: block;
 }
 
-@media (max-width:900px) {
-    .logo {
-        display: none;
-    }
-}
-
-body {
-    height: 100vh;
-    background-color: #a9aaac;
-}
-
 section {
-	padding: 0px 10px;
-}
-
-h1 {
-	font-family: Merriweather;
-}
-
-.h1 {
-	font-family: Merriweather;
-}
-
-h2 {
-	font-family: Merriweather;
-}
-
-p {
-    font-size: 20px;
-	font-family: Raleway;
-}
-
-.p {
-    font-size: 20px;
-	font-family: Raleway;
-}
-
-a {
-	text-decoration: none;
-    font-size: 18px;
-	font-family: Raleway;
-	color: white;
+    padding: 10px;
 }
 
 #tecnicatura {
-	text-align: center;
+    text-align: center;
 }
-
