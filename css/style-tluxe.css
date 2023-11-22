@@ -121,92 +121,54 @@ li:hover {
     display: block;
 }
 
-.tecnicatura {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.presentacion {
+    background-color: aliceblue;
+}
+
+.presentacion h1 {
     text-align: center;
-    height: 40vh;
-    color: black;
-    background-color: #FFFF50;
 }
 
-.texto-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-        )
-        ,url(../images/esetp.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.presentacion embed {
+	height: 330px;
+	width: ;
 }
 
-.texto-1 p {
-    color: whitesmoke;
-    padding: 10px;
+.video {
+background-color: aliceblue;
 }
 
-.texto-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    height: 40vh;
-    color: white;
-    background-color: #111111;
+.video video {
+	height: 300px;
+	width: ;
 }
 
-.texto-2 p {
-    padding: 10px;
+.video h1 {
+    text-align: center;
 }
 
-.texto-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    height: 80vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-        )
-        ,url(../images/esetp2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.imagen {
+    background-color: aliceblue;
 }
 
-.texto-3 p {
-    color: whitesmoke;
-    padding: 10px;
+.imagen img {
+	height: 300px;
+	width: ;
 }
 
-.texto-4 {
-    padding: 30px 10px;
-    color: black;
-    background-color: #FFFF50;
+.imagen h1 {
+    text-align: center;
 }
 
-footer {
-    background-color: rgb(230, 230, 230);
+.imagen1 {
+    background-color: aliceblue;
 }
 
-footer p {
-    margin: 0;
-    padding: 12px;
-    color: rgb(100, 100, 100);
+.imagen1 img {
+	height: 250px;
+	width: ;
 }
 
-footer .container {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.imagen1 h1 {
+    text-align: center;
 }
