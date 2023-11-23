@@ -138,7 +138,7 @@ li:hover {
 background-color: aliceblue;
 }
 
-.video video {
+.video iframe {
 	height: 300px;
 	width: ;
 }
