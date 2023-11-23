@@ -1,11 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: ;
+    font-family: "reboto", sans-serif;
+}
+
+h1 {font-size: 2.5em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em;}
+p {font-size: 1.25em;}
+ul {list-style: none;}
+li {font-size: 1em;}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 header {
-    font-size: 40px;
-	color: ;
-	background-color: ;
-	text-align: center;
-	font-family: Arial;
+    color: white;
+}
+
+.tgaos {
+    color: white
+}
+
+.logo {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252a;
+    padding: 0 2vw;
+}
+
+nav a {
+    display: block;
+}
+
+.cont-ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 1.5vw 2vw;
+    transition: all 0.3s ease 0s;
+}
+
+li:hover {
+    background-color: #ff2e2e;
+}
+
+.develop {
+    position: relative;
+}
+
+.ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+
+.ul-second>li {
+    width: 100px;
+    transform: translateX(5px);
+    border-bottom: solid 1px #fff;
+    text-align: center;
+    background-color: #24252a;
+}
+
+.ul-second>li:hover {
+    background-color: #ff2e2e;
+}
+
+.develop:hover>.ul-second {
+    display: block;
+}
+
+.ul-third {
+    position: absolute;
+    transform: translateX(100px);
+    left: 0;
+    top: 0%;
+    display: none;
+    background-color: #24252a;
+}
+
+.ul-third>li {
+    padding: 1.5vh;
+    border-bottom: solid 1px #fff;
+}
+
+.p-sc:hover>.ul-third {
+    display: block;
+}
+
+.p-se:hover>.ul-third {
+    display: block;
+}
+
+.presentacion {
+    background-color: aliceblue;
+}
+
+.presentacion h1 {
+    text-align: center;
+}
+
+.presentacion embed {
+	height: 330px;
+	width: ;
+}
+
+.video {
+background-color: aliceblue;
+}
+
+.video video {
+	height: 300px;
+	width: ;
+}
+
+.video h1 {
+    text-align: center;
+}
+
+.producto {
+    background-color: aliceblue;
+}
+
+.producto img {
+	height: 300px;
+	width: ;
+}
+
+.producto h1 {
+    text-align: center;
+}
+
+.grupo {
+    background-color: aliceblue;
+}
+
+.grupo img {
+	height: 250px;
+	width: ;
+}
+
+.grupo h1 {
+    text-align: center;
 }
