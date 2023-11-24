@@ -121,6 +121,19 @@ li:hover {
     display: block;
 }
 
+.informe {
+    background-color: aliceblue;
+}
+
+.informe h1 {
+    text-align: center;
+}
+
+.informe embed {
+	height: 330px;
+	width: ;
+}
+
 .presentacion {
     background-color: aliceblue;
 }
